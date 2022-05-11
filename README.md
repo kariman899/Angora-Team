@@ -240,3 +240,65 @@ Landing Page using bootstrap5
     <!--end services-->
 
                       
+:root {
+    --main-color: #dc3545;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #666;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 700;
+  }
+
+  a {
+    text-decoration: none;
+    color: #444;
+    transition: 0.3s ease-in-out;
+  }
+
+  a:hover {
+    color: var(--main-color);
+  }
+  .bg-gray {
+    background-color: #fafafa;
+  }
+  
+  .title h2 {
+    color: #f1f1f1;
+    font-size: 5rem;
+    font-weight: 800;
+  }
+  .title h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #000;
+    
+    
+  }
+  .title p {
+    font-size: 1.2rem;
+    color: #999;
+  
+  }
+
+  .items i {
+    font-size: 25px;
+}
+  
+.text{
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+.items i, .items:hover .text h5 {
+    color: var(--main-color);
+  }
