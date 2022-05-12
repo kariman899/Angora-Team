@@ -356,3 +356,178 @@ team
 .team-member:hover h5 {
   color: var(--main-color);
 }
+
+
+
+
+
+/*
+**
+**
+contact
+**
+***/
+.contact-btn{
+  color: #fff;
+  background-color: #f25454;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  transition: all 1s;
+
+}
+.contact-btn a:hover{
+  color: white;
+}
+.contact-btn:hover{
+  background-color: #f38383;
+}
+.service-icon i{
+  color: #f25454;
+  font-size: 30px;
+}
+.item-text h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: #282828;
+  transition: all .5s;
+}
+.item-text p{
+  font-size: 14px;
+}
+.item-text h3:hover{
+  color: #f25454;
+}
+
+
+
+
+
+
+
+.carousel-indicators [data-bs-target]
+{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+text-indent: 0px;
+top: 0;
+}
+
+
+.feedbac-desc{
+padding: 10px;
+
+}
+
+.fa-ul li{
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(139, 137, 137);
+  display: flex;
+
+  
+ 
+ 
+
+}
+.fa-ul li i{
+  color: #f25454;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.fa-ul li h4{
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact-item h3{
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  color: #282828;
+}
+.fa-ul li:hover h4{
+  color: #f25454;
+}
+.message-btn button{
+  padding: 10px 20px;
+  background-color: #f25454;
+  color: #fff;
+  border: none;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.message-btn a:hover{
+color: #fff;
+}
+.message-btn button:hover{
+  background-color: #f38383;
+}
+
+footer{
+  position: relative;
+}
+
+.footer-content{
+  position: relative;
+  background-color: #282828;
+  background-image: url("images/dotted-map.png");
+
+
+}
+.footer-links a{
+  color: rgb(172, 167, 167);
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+.footer-links a:hover{
+color: #f25454;
+}
+
+.contact-info p{
+  color: rgb(172, 167, 167);
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.tag-btn a{
+  background-color: transparent;
+  border: 1px solid rgb(172, 167, 167) ;
+  color:  white;
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  color:rgb(172, 167, 167) ;
+  
+}
+.tag-btn a:hover {
+  color: #f25454;
+  border:1px solid #f25454;
+}
+
+.arrow{
+  width: 50px;
+  height: 50px;
+  background-color: rgba(243, 108, 96, 0.4);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transition: all 1s;
+z-index: 99999;
+
+}
+.arrow:hover{
+  background-color: #f25454;
+  color: #fff;
+}
+
+
+.footer-social{
+  height: 100px;
+}
+.footer-social a{
+  transition: all 1s;
+}
+.footer-social a:hover{
+  color: #f25454;
+}
