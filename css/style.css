@@ -531,3 +531,72 @@ z-index: 99999;
 .footer-social a:hover{
   color: #f25454;
 }
+
+
+/*start ahmed */
+    
+/*Client Reviews*/
+
+
+.contact-team h2
+{
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgba(209, 204, 204, 0.619) !important;
+}
+.contact-team h3
+{
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+.contact-team h3
+{
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contact-team h6::after
+{
+    content: '';
+    width: 45px;
+    height: 1.5px;
+    position:absolute ;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(0, 0, 0 ,0.6);
+    transition: all 0.9s;
+}
+.contact-team:hover  h6::after
+{
+    width: 70px;
+}
+
+.carousel-indicators .w-100
+{
+    width: 100px !important;
+}
+.carousel-indicators [data-bs-target]
+{
+    position: relative;
+    width: 200%;
+    height: 150%;
+    border-radius: 30%;
+    text-indent: 0;
+}
+.lis-item:hover h5
+{
+    color: var(--maincolor)
+}
+.lis-item h6::before
+{
+    content: '';
+    width:  100%;
+    height: 1.5px;
+    position:absolute ;
+    top: 100%;
+    transform: translateY(-50%);
+    left: 0%;
+    background-color:rgba(10, 11, 12, 0.1);
+}
+/* end ahmed */
