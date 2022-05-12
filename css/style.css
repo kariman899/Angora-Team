@@ -504,7 +504,7 @@ color: #f25454;
   border:1px solid #f25454;
 }
 
-.arrow{
+.to-top{
   width: 50px;
   height: 50px;
   background-color: rgba(243, 108, 96, 0.4);
@@ -516,7 +516,7 @@ color: #f25454;
 z-index: 99999;
 
 }
-.arrow:hover{
+.to-top:hover{
   background-color: #f25454;
   color: #fff;
 }
